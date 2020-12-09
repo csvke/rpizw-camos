@@ -1,5 +1,3 @@
-deploy:
-  api_key: $GITHUB_TOKEN
 dist: trusty
 sudo: required
 addons:
