@@ -5,7 +5,7 @@ IFS=$'\n\t'
 
 # Install any packages we want
 # Added raspicam by csvke
-pacman -Syu --noconfirm vim bash-completion zsh grml-zsh-config sudo avahi nss-mdns wpa_supplicant termite-terminfo raspicam
+pacman -Syu --noconfirm vim bash-completion zsh grml-zsh-config sudo avahi nss-mdns wpa_supplicant termite-terminfo
 
 # Update the hostname
 echo rpizw-camos > /etc/hostname
