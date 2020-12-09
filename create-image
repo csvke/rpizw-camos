@@ -22,7 +22,7 @@ rpi_url="http://archlinuxarm.org/os/${rpi_tar}"
 #   ./create-image 4G              # create a 4 gig image instead of 2 gig
 #   ./create-image 4G myname.img   # create a 4 gig image called myname.img
 size="${1:-2G}"
-image="${2:-rpizw-rover.img}"
+image="${2:-rpizw-camos.img}"
 
 # Tasks to run when the shell exits for any reason, unmount the image and
 # general cleanup
