@@ -1,0 +1,16 @@
+dist: trusty
+sudo: required
+addons:
+  apt:
+    packages:
+      - qemu
+      - qemu-user-static
+      - binfmt-support
+      - parted
+      - wget
+      - dosfstools
+      - zip
+script:
+  - sudo bash ./create-image
+  - xz -z rpizw-camos.img -c > rpizw-camos.img.xz
+  - zip rpizw-camos.img.zip rpizw-camos.img
