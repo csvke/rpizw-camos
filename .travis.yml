@@ -1,3 +1,14 @@
+deploy:
+  provider: releases
+  api_key:
+    secure: ad039a1016d80eed29dc208734efd0c34065655c
+  file:
+    - rpizw-camos.img.xz
+    - rpizw-camos.img.zip
+  skip_cleanup: true
+  on:
+    repo: csvke/rpizw-camos
+    tags: true
 dist: trusty
 sudo: required
 addons:
