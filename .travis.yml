@@ -1,3 +1,6 @@
+deploy:
+  api_key:
+    secure: $GITHUB_TOKEN
 dist: trusty
 sudo: required
 addons:
